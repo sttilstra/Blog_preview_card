@@ -1,0 +1,90 @@
+
+body {
+    background-color: #f4d04e;
+    display:flex;
+    justify-content: center;
+    align-items: center;      
+    min-height: 100vh;
+}
+
+.outer-container {
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    box-shadow: 8px 8px black
+}
+
+.inner-container {
+    display:flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 20px;
+    justify-content: center;
+    
+}
+
+
+
+h1, h3, p {
+    font-family: Figtree, sans-serif;
+
+}
+
+.main_header{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+p {
+    color: #121212;
+}
+
+.image {
+    border-radius: 10px;
+   
+}
+
+
+.para{
+    color: #6b6b6b;
+}
+
+.pic_container {
+    display:flex;
+    gap: 10px;
+    margin-top: 10px
+
+}
+
+.profile_pic{
+    height: 40px;
+
+}
+
+.h3_learning{
+    display: flex;
+    background-color: #f4d04e;
+    width: fit-content;
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+
+}
+
+
+
+.prof_name{
+    font-weight: 800;
+}
+
+.para {
+    font-weight: 500;
+}
+
+
+/* .attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); } */
